@@ -9,6 +9,7 @@ Element Debugger - мощный инструмент для разработчи
 Для разработчиков (сборка из исходников)
 1. Установите
 https://nodejs.org/en
+
 https://git-scm.com/download/win
  
 2. Клонируйте и настройте Vencord:

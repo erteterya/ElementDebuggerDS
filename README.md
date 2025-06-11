@@ -46,19 +46,6 @@ pnpm build
 ```
 pnpm inject
 ```
-# Для пользователей (готовый плагин)
-Создайте структуру папок:
-
- "C:\Users\your user's name\Documents\Vencord\src\UserPlugins\ElementDebuggerDS"
-
-быстрый переход:
-``` 
-%USERPROFILE%\Documents\Vencord\src\
-```
-Скачайте index.ts из репозитория и поместите в:
-
-C:\Users\your user's name\Documents\Vencord\src\UserPlugins\ElementDebuggerDS\
-
 Перезапустите Discord
 
 # Возможности:

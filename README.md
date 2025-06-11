@@ -16,27 +16,31 @@ git - https://git-scm.com/download/win
 2. Клонируйте и настройте Vencord:
 перейдите сюда: %USERPROFILE%\Documents
 откройте в этом расположении CMD и вводите команды по очереди:
-
-1. git clone https://github.com/Vendicated/Vencord
-2. cd Vencord
-3. npm i -g pnpm
-4. pnpm i
-
+```
+git clone https://github.com/Vendicated/Vencord
+cd Vencord
+npm i -g pnpm
+pnpm i
+```
 3.Создайте папку для пользовательских плагинов и установите ElementDebugger :
-1. mkdir -p src/UserPlugins
-2. cd src/UserPlugins
-3. git clone https://github.com/erteterya/ElementDebuggerDS/
-
+```
+mkdir -p src/UserPlugins
+cd src/UserPlugins
+git clone https://github.com/erteterya/ElementDebuggerDS/
+```
 4.Соберите и инжектируйте:
-1. pnpm build
-2. pnpm inject
-
+```
+pnpm build
+pnpm inject
+```
 Для пользователей (готовый плагин)
 Создайте структуру папок:
 
  "C:\Users\your user's name\Documents\Vencord\src\UserPlugins\ElementDebuggerDS"
-"быстрый переход: %USERPROFILE%\Documents\Vencord\src\"
-
+быстрый переход:
+``` 
+%USERPROFILE%\Documents\Vencord\src\
+```
 Скачайте index.ts из репозитория и поместите в:
 C:\Users\your user's name\Documents\Vencord\src\UserPlugins\ElementDebuggerDS\
 Перезапустите Discord

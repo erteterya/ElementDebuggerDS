@@ -18,19 +18,31 @@ git - https://git-scm.com/download/win
 откройте в этом расположении CMD и вводите команды по очереди:
 ```
 git clone https://github.com/Vendicated/Vencord
+```
+```
 cd Vencord
+```
+```
 npm i -g pnpm
+```
+```
 pnpm i
 ```
 3.Создайте папку для пользовательских плагинов и установите ElementDebugger :
 ```
 mkdir -p src/UserPlugins
+```
+```
 cd src/UserPlugins
+```
+```
 git clone https://github.com/erteterya/ElementDebuggerDS/
 ```
 4.Соберите и инжектируйте:
 ```
 pnpm build
+```
+```
 pnpm inject
 ```
 Для пользователей (готовый плагин)

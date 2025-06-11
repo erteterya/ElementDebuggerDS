@@ -7,10 +7,11 @@ Element Debugger - мощный инструмент для разработчи
 
 Установка
 Для разработчиков (сборка из исходников)
-1. Установите
-https://nodejs.org/en
+1. Установите необходимое для CMD если ещё не установлено:
 
-https://git-scm.com/download/win
+nodejs - https://nodejs.org/en
+
+git - https://git-scm.com/download/win
  
 2. Клонируйте и настройте Vencord:
 перейдите сюда: %USERPROFILE%\Documents

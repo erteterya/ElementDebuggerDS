@@ -12,7 +12,7 @@ nodejs - https://nodejs.org/en
 git - https://git-scm.com/download/win
  
 ## 2. Клонируйте и настройте Vencord:
-перейдите сюда: 
+перейдите сюда (используйте Win + R): 
 ```
 %USERPROFILE%\Documents
 ```

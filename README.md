@@ -50,6 +50,7 @@ pnpm inject
 Создайте структуру папок:
 
  "C:\Users\your user's name\Documents\Vencord\src\UserPlugins\ElementDebuggerDS"
+
 быстрый переход:
 ``` 
 %USERPROFILE%\Documents\Vencord\src\
